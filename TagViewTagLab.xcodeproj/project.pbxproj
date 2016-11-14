@@ -12,6 +12,23 @@
 		41BC0F051DB8A1A100D18CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F031DB8A1A100D18CF3 /* Main.storyboard */; };
 		41BC0F071DB8A1A100D18CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F061DB8A1A100D18CF3 /* Assets.xcassets */; };
 		41BC0F0A1DB8A1A100D18CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F081DB8A1A100D18CF3 /* LaunchScreen.storyboard */; };
+		41BC0F151DB8A1D700D18CF3 /* FMTagImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC0F121DB8A1D700D18CF3 /* FMTagImageView.swift */; };
+		41BC0F161DB8A1D700D18CF3 /* FMTagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC0F131DB8A1D700D18CF3 /* FMTagTableViewCell.swift */; };
+		41BC0F171DB8A1D700D18CF3 /* FMTagTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F141DB8A1D700D18CF3 /* FMTagTableViewCell.xib */; };
+		41BC0F191DB8A2CE00D18CF3 /* GMTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC0F181DB8A2CE00D18CF3 /* GMTagView.swift */; };
+		41BC0F1B1DB8A2DB00D18CF3 /* GMTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F1A1DB8A2DB00D18CF3 /* GMTagView.xib */; };
+		41BC0F1E1DB8A58800D18CF3 /* GMTagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC0F1C1DB8A58800D18CF3 /* GMTagTableViewCell.swift */; };
+		41BC0F1F1DB8A58800D18CF3 /* GMTagTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F1D1DB8A58800D18CF3 /* GMTagTableViewCell.xib */; };
+		41BC0F291DB8A6D500D18CF3 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F201DB8A6D500D18CF3 /* 1.jpeg */; };
+		41BC0F2A1DB8A6D500D18CF3 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F211DB8A6D500D18CF3 /* 2.jpeg */; };
+		41BC0F2B1DB8A6D500D18CF3 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F221DB8A6D500D18CF3 /* 3.jpeg */; };
+		41BC0F2C1DB8A6D500D18CF3 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F231DB8A6D500D18CF3 /* 4.jpeg */; };
+		41BC0F2E1DB8A6D500D18CF3 /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F251DB8A6D500D18CF3 /* 6.jpeg */; };
+		41BC0F311DB8A6D500D18CF3 /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F281DB8A6D500D18CF3 /* 9.jpeg */; };
+		41BC0F341DB8A8A000D18CF3 /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F331DB8A8A000D18CF3 /* 5.jpeg */; };
+		41BC0F371DB8A8AB00D18CF3 /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F351DB8A8AB00D18CF3 /* 7.jpeg */; };
+		41BC0F381DB8A8AB00D18CF3 /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0F361DB8A8AB00D18CF3 /* 8.jpeg */; };
+		41BC0F3A1DB8AD1100D18CF3 /* FMHomeGoodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC0F391DB8AD1100D18CF3 /* FMHomeGoodsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +39,23 @@
 		41BC0F061DB8A1A100D18CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41BC0F091DB8A1A100D18CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BC0F0B1DB8A1A100D18CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BC0F121DB8A1D700D18CF3 /* FMTagImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTagImageView.swift; sourceTree = "<group>"; };
+		41BC0F131DB8A1D700D18CF3 /* FMTagTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTagTableViewCell.swift; sourceTree = "<group>"; };
+		41BC0F141DB8A1D700D18CF3 /* FMTagTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMTagTableViewCell.xib; sourceTree = "<group>"; };
+		41BC0F181DB8A2CE00D18CF3 /* GMTagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMTagView.swift; sourceTree = "<group>"; };
+		41BC0F1A1DB8A2DB00D18CF3 /* GMTagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMTagView.xib; sourceTree = "<group>"; };
+		41BC0F1C1DB8A58800D18CF3 /* GMTagTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMTagTableViewCell.swift; sourceTree = "<group>"; };
+		41BC0F1D1DB8A58800D18CF3 /* GMTagTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMTagTableViewCell.xib; sourceTree = "<group>"; };
+		41BC0F201DB8A6D500D18CF3 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		41BC0F211DB8A6D500D18CF3 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		41BC0F221DB8A6D500D18CF3 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		41BC0F231DB8A6D500D18CF3 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		41BC0F251DB8A6D500D18CF3 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		41BC0F281DB8A6D500D18CF3 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		41BC0F331DB8A8A000D18CF3 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		41BC0F351DB8A8AB00D18CF3 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		41BC0F361DB8A8AB00D18CF3 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		41BC0F391DB8AD1100D18CF3 /* FMHomeGoodsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMHomeGoodsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +88,47 @@
 		41BC0EFE1DB8A1A100D18CF3 /* TagViewTagLab */ = {
 			isa = PBXGroup;
 			children = (
+				41BC0F321DB8A6E800D18CF3 /* Images */,
 				41BC0EFF1DB8A1A100D18CF3 /* AppDelegate.swift */,
 				41BC0F011DB8A1A100D18CF3 /* ViewController.swift */,
+				41BC0F181DB8A2CE00D18CF3 /* GMTagView.swift */,
+				41BC0F1A1DB8A2DB00D18CF3 /* GMTagView.xib */,
+				41BC0F1C1DB8A58800D18CF3 /* GMTagTableViewCell.swift */,
+				41BC0F1D1DB8A58800D18CF3 /* GMTagTableViewCell.xib */,
+				41BC0F111DB8A1D700D18CF3 /* FMTagView */,
 				41BC0F031DB8A1A100D18CF3 /* Main.storyboard */,
 				41BC0F061DB8A1A100D18CF3 /* Assets.xcassets */,
 				41BC0F081DB8A1A100D18CF3 /* LaunchScreen.storyboard */,
 				41BC0F0B1DB8A1A100D18CF3 /* Info.plist */,
 			);
 			path = TagViewTagLab;
+			sourceTree = "<group>";
+		};
+		41BC0F111DB8A1D700D18CF3 /* FMTagView */ = {
+			isa = PBXGroup;
+			children = (
+				41BC0F391DB8AD1100D18CF3 /* FMHomeGoodsModel.swift */,
+				41BC0F121DB8A1D700D18CF3 /* FMTagImageView.swift */,
+				41BC0F131DB8A1D700D18CF3 /* FMTagTableViewCell.swift */,
+				41BC0F141DB8A1D700D18CF3 /* FMTagTableViewCell.xib */,
+			);
+			path = FMTagView;
+			sourceTree = "<group>";
+		};
+		41BC0F321DB8A6E800D18CF3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				41BC0F201DB8A6D500D18CF3 /* 1.jpeg */,
+				41BC0F211DB8A6D500D18CF3 /* 2.jpeg */,
+				41BC0F221DB8A6D500D18CF3 /* 3.jpeg */,
+				41BC0F231DB8A6D500D18CF3 /* 4.jpeg */,
+				41BC0F331DB8A8A000D18CF3 /* 5.jpeg */,
+				41BC0F251DB8A6D500D18CF3 /* 6.jpeg */,
+				41BC0F351DB8A8AB00D18CF3 /* 7.jpeg */,
+				41BC0F361DB8A8AB00D18CF3 /* 8.jpeg */,
+				41BC0F281DB8A6D500D18CF3 /* 9.jpeg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +190,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BC0F311DB8A6D500D18CF3 /* 9.jpeg in Resources */,
+				41BC0F371DB8A8AB00D18CF3 /* 7.jpeg in Resources */,
+				41BC0F2E1DB8A6D500D18CF3 /* 6.jpeg in Resources */,
+				41BC0F2C1DB8A6D500D18CF3 /* 4.jpeg in Resources */,
+				41BC0F291DB8A6D500D18CF3 /* 1.jpeg in Resources */,
+				41BC0F381DB8A8AB00D18CF3 /* 8.jpeg in Resources */,
 				41BC0F0A1DB8A1A100D18CF3 /* LaunchScreen.storyboard in Resources */,
+				41BC0F1B1DB8A2DB00D18CF3 /* GMTagView.xib in Resources */,
+				41BC0F2B1DB8A6D500D18CF3 /* 3.jpeg in Resources */,
+				41BC0F171DB8A1D700D18CF3 /* FMTagTableViewCell.xib in Resources */,
+				41BC0F2A1DB8A6D500D18CF3 /* 2.jpeg in Resources */,
 				41BC0F071DB8A1A100D18CF3 /* Assets.xcassets in Resources */,
+				41BC0F1F1DB8A58800D18CF3 /* GMTagTableViewCell.xib in Resources */,
 				41BC0F051DB8A1A100D18CF3 /* Main.storyboard in Resources */,
+				41BC0F341DB8A8A000D18CF3 /* 5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BC0F1E1DB8A58800D18CF3 /* GMTagTableViewCell.swift in Sources */,
+				41BC0F191DB8A2CE00D18CF3 /* GMTagView.swift in Sources */,
+				41BC0F3A1DB8AD1100D18CF3 /* FMHomeGoodsModel.swift in Sources */,
+				41BC0F151DB8A1D700D18CF3 /* FMTagImageView.swift in Sources */,
+				41BC0F161DB8A1D700D18CF3 /* FMTagTableViewCell.swift in Sources */,
 				41BC0F021DB8A1A100D18CF3 /* ViewController.swift in Sources */,
 				41BC0F001DB8A1A100D18CF3 /* AppDelegate.swift in Sources */,
 			);

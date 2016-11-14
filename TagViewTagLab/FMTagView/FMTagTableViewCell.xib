@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="166" id="KGk-i7-Jjw" customClass="FMTagTableViewCell" customModule="TagViewTagLab" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="23"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="22.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yJe-el-4Se" customClass="FMTagImageView" customModule="TagViewTagLab" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="23" height="22"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="23" id="s3E-JM-Ecm"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cmr-3N-qH4">
+                        <rect key="frame" x="23" y="0.0" width="177" height="23"/>
+                        <subviews>
+                            <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wdt-u4-0jM">
+                                <rect key="frame" x="0.0" y="0.0" width="177" height="23"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXb-O5-BtD">
+                                <rect key="frame" x="0.0" y="0.0" width="177" height="23"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="小牛电动车"/>
+                                <connections>
+                                    <action selector="onTextTagClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Qgn-7J-Chw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wdt-u4-0jM" firstAttribute="top" secondItem="Cmr-3N-qH4" secondAttribute="top" id="2fB-tt-dzQ"/>
+                            <constraint firstItem="fXb-O5-BtD" firstAttribute="top" secondItem="Cmr-3N-qH4" secondAttribute="top" id="IAi-m5-eJT"/>
+                            <constraint firstItem="wdt-u4-0jM" firstAttribute="leading" secondItem="Cmr-3N-qH4" secondAttribute="leading" id="Pfw-52-yvk"/>
+                            <constraint firstItem="fXb-O5-BtD" firstAttribute="leading" secondItem="Cmr-3N-qH4" secondAttribute="leading" id="dHi-54-Ckf"/>
+                            <constraint firstAttribute="bottom" secondItem="fXb-O5-BtD" secondAttribute="bottom" id="mGZ-gZ-pqg"/>
+                            <constraint firstAttribute="bottom" secondItem="wdt-u4-0jM" secondAttribute="bottom" id="pKg-SM-YaM"/>
+                            <constraint firstAttribute="trailing" secondItem="fXb-O5-BtD" secondAttribute="trailing" id="sBU-wA-bTL"/>
+                            <constraint firstAttribute="trailing" secondItem="wdt-u4-0jM" secondAttribute="trailing" id="xr7-XQ-UhK"/>
+                        </constraints>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hpb-LY-P4f">
+                        <rect key="frame" x="0.0" y="0.0" width="177" height="22"/>
+                        <subviews>
+                            <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aci-85-Wrv">
+                                <rect key="frame" x="0.0" y="0.0" width="177" height="22"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVw-8n-OMT">
+                                <rect key="frame" x="0.0" y="0.0" width="177" height="22"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="小牛电动车"/>
+                                <connections>
+                                    <action selector="onTextTagClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="HRa-87-kP4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Aci-85-Wrv" firstAttribute="top" secondItem="hpb-LY-P4f" secondAttribute="top" id="0H8-Tn-JGK"/>
+                            <constraint firstItem="IVw-8n-OMT" firstAttribute="leading" secondItem="hpb-LY-P4f" secondAttribute="leading" id="2Yf-Iq-YPi"/>
+                            <constraint firstAttribute="bottom" secondItem="IVw-8n-OMT" secondAttribute="bottom" id="EqU-bV-JMU"/>
+                            <constraint firstItem="IVw-8n-OMT" firstAttribute="top" secondItem="hpb-LY-P4f" secondAttribute="top" id="Nfa-vU-4Ba"/>
+                            <constraint firstItem="Aci-85-Wrv" firstAttribute="leading" secondItem="hpb-LY-P4f" secondAttribute="leading" id="Nt4-yj-hfU"/>
+                            <constraint firstAttribute="trailing" secondItem="Aci-85-Wrv" secondAttribute="trailing" id="WVo-G0-6Ym"/>
+                            <constraint firstAttribute="trailing" secondItem="IVw-8n-OMT" secondAttribute="trailing" id="fv7-dB-fGH"/>
+                            <constraint firstAttribute="bottom" secondItem="Aci-85-Wrv" secondAttribute="bottom" id="wrp-4a-Mgy"/>
+                        </constraints>
+                    </view>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PEr-V1-gUg" customClass="FMTagImageView" customModule="TagViewTagLab" customModuleProvider="target">
+                        <rect key="frame" x="177" y="0.0" width="23" height="22"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="23" id="aNw-to-QAk"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="Cmr-3N-qH4" firstAttribute="leading" secondItem="yJe-el-4Se" secondAttribute="trailing" id="8qV-Lg-XFr"/>
+                    <constraint firstItem="yJe-el-4Se" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8rN-kh-DHM"/>
+                    <constraint firstAttribute="bottom" secondItem="Cmr-3N-qH4" secondAttribute="bottom" id="Amp-q9-VN5"/>
+                    <constraint firstAttribute="trailing" secondItem="Cmr-3N-qH4" secondAttribute="trailing" id="HE1-A7-PgA"/>
+                    <constraint firstAttribute="bottom" secondItem="hpb-LY-P4f" secondAttribute="bottom" id="Kbf-aY-qfZ"/>
+                    <constraint firstAttribute="bottom" secondItem="yJe-el-4Se" secondAttribute="bottom" id="LoJ-wH-3Hs"/>
+                    <constraint firstItem="hpb-LY-P4f" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="UKH-bv-6bn"/>
+                    <constraint firstItem="PEr-V1-gUg" firstAttribute="leading" secondItem="hpb-LY-P4f" secondAttribute="trailing" id="W8E-Ce-eB8"/>
+                    <constraint firstItem="hpb-LY-P4f" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="WOW-Yk-dLj"/>
+                    <constraint firstItem="hpb-LY-P4f" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="baJ-V5-FaJ"/>
+                    <constraint firstAttribute="bottom" secondItem="PEr-V1-gUg" secondAttribute="bottom" id="dHh-7Y-vjp"/>
+                    <constraint firstAttribute="trailing" secondItem="PEr-V1-gUg" secondAttribute="trailing" id="lQg-mz-ONV"/>
+                    <constraint firstItem="PEr-V1-gUg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="t5E-h8-tWP"/>
+                    <constraint firstItem="Cmr-3N-qH4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uC5-Ko-mKI"/>
+                    <constraint firstItem="PEr-V1-gUg" firstAttribute="leading" secondItem="hpb-LY-P4f" secondAttribute="trailing" id="uZp-Tx-u4X"/>
+                    <constraint firstItem="hpb-LY-P4f" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uhA-K1-dcl"/>
+                    <constraint firstAttribute="bottom" secondItem="hpb-LY-P4f" secondAttribute="bottom" id="vOc-DQ-bmQ"/>
+                    <constraint firstItem="yJe-el-4Se" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yED-qq-HNK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="btn" destination="fXb-O5-BtD" id="Pn2-VC-yjl"/>
+                <outlet property="leftBtnBlackBgView" destination="Aci-85-Wrv" id="Q8W-3s-ZBO"/>
+                <outlet property="leftTagBtn" destination="IVw-8n-OMT" id="xiK-UZ-lJ9"/>
+                <outlet property="leftTextTagBgView" destination="hpb-LY-P4f" id="Wwz-ac-tqS"/>
+                <outlet property="rightBtnBlackBgView" destination="wdt-u4-0jM" id="Sxg-lH-0uF"/>
+                <outlet property="rightTextTagBgView" destination="Cmr-3N-qH4" id="x9k-sm-gsa"/>
+                <outlet property="tagImageView" destination="yJe-el-4Se" id="2ig-vj-hAk"/>
+                <outlet property="tagRightImageView" destination="PEr-V1-gUg" id="Mrd-kf-e8B"/>
+            </connections>
+            <point key="canvasLocation" x="-107" y="-97"/>
+        </tableViewCell>
+    </objects>
+</document>

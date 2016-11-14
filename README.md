@@ -24,4 +24,4 @@
 
 # 更多关于iOS-Swift动画请关注
 
-[我的博客地址](xinxibin.com)
+[我的博客](xinxibin.com)
